@@ -11,3 +11,15 @@ Regarding wiring, electronics case fan should be connected to the FAN2 pins.
 This folder contains configuration files for Ender 5 using v2.0.X Marlin.
 
 To compile, just use these config files and set `default_envs = LPC1769` in platformio.ini file.
+
+
+
+# Beginning of changes made by CSN495
+
+3/19/2022:  
+
+    Replaced stock Z-axis leadscrew with Reliabot 400mm T8 Tr8x2 lead screw (2mm Pitch, 1 Start, 2mm Lead) + POM anti backlash nut.
+    
+    Changed Default steps per mm from 800 to 1600 in Configuration.h (See below).
+            
+        DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 }   >   DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 1600, 93 }
