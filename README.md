@@ -1,10 +1,9 @@
 # Notes from CSN495
 
-    This FW has is A PLACEHOLDER.
 
     3/26/2022:
         Changed from MicroSwiss to Dragon HF hotend with 0.6mm nozzle.
-        Moved position of BLtouch to be Y: +1 X: -
+        Moved position of BLtouch to be Y: +1 X: -46
 
 
 
